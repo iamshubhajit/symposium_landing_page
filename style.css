@@ -1,0 +1,251 @@
+@font-face {
+    font-family: ModernEra-Black;
+    src: url(ModernEra-Black.woff);
+}
+@font-face {
+    font-family: ModernEra-Regular;
+    src: url(ModernEra-Regular.woff);
+}
+.font_family_MEB
+{
+    font-family: 'ModernEra-Black', sans-serif;
+}
+.font_family_MER
+{
+    font-family: 'ModernEra-Regular', sans-serif;
+}
+.font_family_MER_bold
+{
+    font-family: 'ModernEra-Regular', sans-serif;
+    font-weight: bold;
+}
+.font_size_70px
+{ 
+    font-size: 70px;
+    line-height: 70px;
+}
+.font_size_50px
+{
+    font-size: 50px;
+    line-height: 50px;
+}
+.font_size_35px
+{
+    font-size: 35px;
+    line-height: 35px;
+}
+.font_size_24px
+{
+    font-size: 24px;
+    line-height: 24px;
+}
+.font_size_18px
+{
+    font-size: 18px;
+}
+.font_color_80c3ba
+{
+    color: #80c3ba;
+}
+.font_color_2f2d2e
+{
+    color: #2f2d2e;
+}
+.font_color_393738
+{
+    color: #393738;
+}
+.font_color_000000
+{
+    color: #000000;
+}
+.font_color_ffffff
+{
+    color: #ffffff;
+}
+.margin_bottom_10px
+{
+    margin-bottom: 10px;
+}
+.margin_bottom_15px
+{
+    margin-bottom: 15px;
+}
+.margin_bottom_20px
+{
+    margin-bottom: 20px;
+}
+.margin_bottom_30px
+{
+    margin-bottom: 30px;
+}
+.margin_bottom_40px
+{
+    margin-bottom: 40px;
+}
+.margin_bottom_100px
+{
+    margin-bottom: 100px;
+}
+
+img
+{
+    max-width: 100%;
+}
+html, body
+{
+    height: 100%;
+}
+.section_1
+{
+    background-image: url(Header_NoText_Symposium_Landing.png);
+    background-color: #000000;
+    padding: 80px 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section_2
+{
+    background-color: #000000;
+    padding: 80px 15px 40px 15px;
+}
+.white_line
+{
+    background: white;
+    height: 10px;
+    width: 45px;
+    float: left;
+    margin-bottom: 30px;
+}
+.white_button
+{
+    float: left;
+    padding: 10px 70px;
+    width: 68%;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.white_button:hover,
+.white_button:active,
+.white_button:visited,
+.white_button:focus
+{
+    text-decoration: none;
+    color: initial;
+}
+.section_3
+{
+    background: #000000;
+    padding-top: 40px;
+}
+.section_3 img
+{
+    width: 200px;
+}
+.section_4
+{
+    padding: 120px 15px;
+}
+.black_line
+{
+    background: #2f2d2e;
+    height: 10px;
+    width: 45px;
+    float: left;
+    margin-bottom: 30px;
+}
+.speaker_session_div
+{
+    padding: 20px 0px;
+    border-bottom: 2px solid #2f2d2e;
+}
+.speaker_session_div:first-child
+{
+    border-top: 2px solid #2f2d2e;
+}
+.black_button_cont
+{
+    position: absolute;
+    bottom: 0px;
+}
+.black_button
+{
+    float: left;
+    width: 100%;
+    background: #2f2d2e;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.black_button:hover,
+.black_button:active,
+.black_button:visited,
+.black_button:focus
+{
+    text-decoration: none;
+    color: #fff;
+}
+.section_5
+{
+    padding: 120px 15px;
+    background: #000;
+}
+.white_button_cont
+{
+    position: absolute;
+    bottom: 0px;
+}
+.white_button_1
+{
+    float: left;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+.white_button_1:hover,
+.white_button_1:active,
+.white_button_1:visited,
+.white_button_1:focus
+{
+    text-decoration: none;
+    color: initial;
+}
+.section_6
+{
+    padding: 120px 15px;
+    background: #80c3ba url(500_Symposium_Landing.png);
+    min-height: 100%;
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+    .font_size_70px
+    { 
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .white_button_cont
+    {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .black_button_cont
+    {
+        position: relative; 
+        margin-bottom: 10px;
+    }
+    .white_button_1
+    {
+        padding: 15px;
+    }
+    .black_button
+    {
+        padding: 15px;
+    }
+}
