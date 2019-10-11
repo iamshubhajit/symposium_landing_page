@@ -6,6 +6,11 @@
     font-family: ModernEra-Regular;
     src: url(ModernEra-Regular.woff);
 }
+a:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+}
 .font_family_MEB
 {
     font-family: 'ModernEra-Black', sans-serif;
@@ -144,6 +149,14 @@ html, body
 {
     width: 200px;
 }
+.p_coveo
+{
+    text-align: left;
+}
+.p_congi
+{
+    text-align: right;
+}
 .section_4
 {
     padding: 120px 15px;
@@ -247,5 +260,66 @@ html, body
     .black_button
     {
         padding: 15px;
+    }
+    .margin_bottom_100px
+    {
+        margin-bottom: 10px;
+    }
+    .white_button
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .speaker_session_div
+    {
+        display: flex; 
+        flex-flow: column;
+    }
+    .event_time_date
+    {
+        order:2;
+        margin-top: 15px;
+    }
+    .event_content
+    {
+        order:1;
+    }
+    .event_headshots
+    {
+        display: none;
+    }
+    .section_1
+    {
+        background-size: 200%;
+        background-repeat: repeat;
+        background-position: top;
+    }
+    .section_6
+    {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        min-height: auto;
+    }
+
+    .section_3
+    {
+        display: flex; 
+        flex-flow: column;
+        padding-bottom: 40px;
+    }
+    .p_writeup
+    {
+        order: 1;
+    }
+    .p_coveo
+    {
+        text-align: center;
+        order: 2;
+    }
+    .p_congi
+    {
+        text-align: center;
+        order: 3;
     }
 }
